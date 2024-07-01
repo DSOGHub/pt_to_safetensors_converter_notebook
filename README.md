@@ -1,6 +1,8 @@
 # pt_to_safetensors_converter_notebook
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DiffusionDalmation/pt_to_safetensors_converter_notebook/blob/main/pt_to_safetensors_converter.ipynb) 
+Same as main but local and inside a docker container running a base jupyter environment to prevent at least casual malicious code execution (https://github.com/DiffusionDalmation/pt_to_safetensors_converter_notebook) 
+
+No warranty expressed, implied, or really even considered.
 
 This notebook provides a simple tool to convert Stable Diffusion-related model files from .pt to safetensors format. Because of security concerns around .pt files and their ability to execute potentially malicious code, some people might prefer to share their Stable Diffusion-related model files in the more secure SafeTensors format instead.
 
